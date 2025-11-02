@@ -16,6 +16,31 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <style>
+        /* PC */
+        @media (min-width: 1024px) {
+            .container {
+                width: 80%;
+                font-size: 18px;
+            }
+        }
+
+        /* Tablet */
+        @media (max-width: 1023px) and (min-width: 740px) {
+            .container {
+                width: 90%;
+                font-size: 16px;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 739px) {
+            .container {
+                width: 100%;
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
+
         .container {
             display: flex;
             justify-content: center;
